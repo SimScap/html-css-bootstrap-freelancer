@@ -1,0 +1,49 @@
+.container-fluid{
+    border: 2px solid black;
+}
+.bg-acqua{
+    background-color: rgb(26, 188, 156);
+    height: 400px;
+}
+.container{
+    border: 2px solid mediumblue;
+}
+.my-img-container{
+    border: 2px solid slateblue;
+}
+.header{
+    border: 2px solid red;
+    background-color:rgb(37, 47, 57);
+    height: 60px;
+    
+}
+.jumbo{
+    border: 2px solid aqua;
+    height: 250px;
+    
+}
+
+.row{
+    border: 2px solid magenta;
+    margin: 0 auto;
+}
+.my-justify-cnt{
+    justify-content: center;
+}
+.my-justify-around{
+    justify-content: space-around;
+}
+.my-margin-bottom{
+    margin-bottom: 1rem;
+}
+.my-text-container{
+    border: 2px solid firebrick;
+    height: 70px;
+}
+img{
+    border-radius: 20px;
+    margin: .7rem;
+}
+.card{
+    border: none;
+}
