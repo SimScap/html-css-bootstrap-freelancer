@@ -47,3 +47,17 @@ img{
 .card{
     border: none;
 }
+.my-img{
+    width: 300px;
+
+}
+
+i{
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 0.5rem;
+}
+
+ul{
+    list-style-type: none;
+}

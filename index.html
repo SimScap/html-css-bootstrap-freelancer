@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
@@ -12,6 +14,17 @@
     <main>
         <div class="row header col-12"></div>
         <section class="container-fluid bg-acqua"> 
+            <div class="container">
+                <div class="row my-justify-cnt">
+                   <div class="my-img">   
+                           <img src="img/avatar.svg" alt="">    
+                   </div>
+                </div>
+                 
+                </div>
+               
+            </div>
+           
         </section>   
             <div class="container">
                 <div class="my-text-container"></div>
@@ -63,12 +76,16 @@
         </section>
         <section class="container">
             <div class="my-text-container"></div>
-            <h3>Name</h3>
+            <label for="exampleFormControlInput1" class="form-label"><h3>Name</h3></label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name">
             <hr>
-            <h3>Name</h3>
+            <label for="exampleFormControlInput2" class="form-label"><h3>E-mail Adress</h3></label>
+            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
             <hr>
-            <h3>Name</h3>
+            <label for="exampleFormControlInput3" class="form-label"><h3>Phone Number</h3></label>
+            <input type="number" class="form-control" id="exampleFormControlInput3" placeholder="+">
             <hr>
+            <label for="exampleFormControlInput4" class="form-label"><h3>Message</h3></label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
             <hr>
             <button>click</button>
@@ -76,9 +93,30 @@
     </main>  
         <footer class="container-fluid">
             <div class="row">
-                <div class="col-12 col-md-4">f</div>
-                <div class="col-12 col-md-4">f</div>
-                <div class="col-12 col-md-4">f</div>
+                <div class="col-12 col-md-4">
+                    <h4>LOCATION</h4>
+                    <ul>
+                        <li>2215 John Daniel Driver Clark, MO </li>
+                        <li>54243</li>   
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h4>AROUND THE WEB</h4>
+                    <ul>
+                        <li>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-google-plus-g"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h4>ABOUT FREELANCER</h4>
+                    <ul>
+                        <li>Freelance is a free to use,open source Bootstrap theme created by Start Bootstrap.</li>
+                    </ul>
+                </div>
             </div>
             <div class="row">
                 <div class="my-text-container"></div>
