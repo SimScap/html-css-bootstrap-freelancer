@@ -3,7 +3,7 @@
 }
 .bg-acqua{
     background-color: rgb(26, 188, 156);
-    height: 400px;
+    
 }
 .container{
     border: 2px solid mediumblue;
@@ -11,18 +11,10 @@
 .my-img-container{
     border: 2px solid slateblue;
 }
-.header{
+.navbar{
     border: 2px solid red;
     background-color:rgb(37, 47, 57);
-    height: 60px;
-    
 }
-.jumbo{
-    border: 2px solid aqua;
-    height: 250px;
-    
-}
-
 .row{
     border: 2px solid magenta;
     margin: 0 auto;
@@ -49,26 +41,26 @@ img{
 .my-img{
     width: 300px;
     border: 2px solid black;
-
 }
-
 i{
-    border: 1px solid grey;
+    border: 1px solid white;
     border-radius: 15px;
     padding: 0.5rem;
 }
-
 ul{
     list-style-type: none;
 }
-
 li{
     border: 2px solid red;
 }
-
 .star-line{
     border: 1px solid;
     width: 100px;
     display: inline-block;
 }
-
+.my-bg-grey{
+    background-color: rgb(58, 84, 109);
+}
+.my-bg-darkgrey{
+    background-color: rgb(38, 50, 61);
+}
