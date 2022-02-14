@@ -5,31 +5,12 @@
     background-color: rgb(26, 188, 156);
     
 }
-.container{
-    border: 2px solid mediumblue;
-}
 .my-img-container{
     border: 2px solid slateblue;
 }
 .navbar{
     border: 2px solid red;
     background-color:rgb(37, 47, 57);
-}
-.row{
-    border: 2px solid magenta;
-    margin: 0 auto;
-}
-.my-justify-cnt{
-    justify-content: center;
-}
-.my-justify-around{
-    justify-content: space-around;
-}
-.my-margin-bottom{
-    margin-bottom: 1rem;
-}
-.my-text-container{
-    border: 2px solid firebrick;
 }
 img{
     border-radius: 20px;
@@ -40,7 +21,6 @@ img{
 }
 .my-img{
     width: 300px;
-    border: 2px solid black;
 }
 i{
     border: 1px solid white;
@@ -49,9 +29,6 @@ i{
 }
 ul{
     list-style-type: none;
-}
-li{
-    border: 2px solid red;
 }
 .star-line{
     border: 1px solid;
