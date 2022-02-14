@@ -38,7 +38,6 @@
 }
 .my-text-container{
     border: 2px solid firebrick;
-    height: 70px;
 }
 img{
     border-radius: 20px;
@@ -49,6 +48,7 @@ img{
 }
 .my-img{
     width: 300px;
+    border: 2px solid black;
 
 }
 
@@ -61,3 +61,14 @@ i{
 ul{
     list-style-type: none;
 }
+
+li{
+    border: 2px solid red;
+}
+
+.star-line{
+    border: 1px solid;
+    width: 100px;
+    display: inline-block;
+}
+
