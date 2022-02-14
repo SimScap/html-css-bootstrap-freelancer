@@ -3,10 +3,19 @@
 }
 .bg-acqua{
     background-color: rgb(26, 188, 156);
+    height: 400px;
     
+}
+.my-title{
+    border: 2px solid green;
+    width: 300px;
+
 }
 .my-img-container{
     border: 2px solid slateblue;
+}
+.my-text-container{
+    margin-bottom: 2rem;
 }
 .navbar{
     border: 2px solid red;
@@ -40,4 +49,7 @@ ul{
 }
 .my-bg-darkgrey{
     background-color: rgb(38, 50, 61);
+}
+.my-text-align{
+    text-align: right;
 }
