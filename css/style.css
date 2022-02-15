@@ -1,24 +1,11 @@
-.container-fluid{
-    border: 2px solid black;
-}
+
 .bg-acqua{
-    background-color: rgb(26, 188, 156);
-    height: 400px;
-    
+    background-color: rgb(26, 188, 156);   
 }
 .my-title{
-    border: 2px solid green;
     width: 300px;
-
-}
-.my-img-container{
-    border: 2px solid slateblue;
-}
-.my-text-container{
-    margin-bottom: 2rem;
 }
 .navbar{
-    border: 2px solid red;
     background-color:rgb(37, 47, 57);
 }
 img{
@@ -29,15 +16,18 @@ img{
     border: none;
 }
 .my-img{
-    width: 300px;
+    width: 400px;
 }
 i{
     border: 1px solid white;
     border-radius: 15px;
-    padding: 0.5rem;
+    padding: 0.4rem;
 }
 ul{
     list-style-type: none;
+}
+li{
+    font-size: .7rem;
 }
 .star-line{
     border: 1px solid;
@@ -52,4 +42,10 @@ ul{
 }
 .my-text-align{
     text-align: right;
+}
+.my-text-align-cntr{
+    text-align: center;
+}
+div.my-img img{
+    width: 300px;
 }
